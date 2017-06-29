@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>简历 · My Resume</title>
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+    <script>
+    (function(){
+        document.body.style.width='100%';
+        document.body.style.height='100%';
+        document.body.style.overflow=document.body.parentNode.style.overflow='hidden';
+    })();
+    </script>
+    <iframe src="4ie.html" frameborder="0" style="position:absolute; width:100%; height:100%; z-index:1;"></iframe>
+    <![endif]-->
+    <aside>
+        <ul>
+            <li><a href="#introdution" class="aside-item">简介</a></li>
+            <li><a href="#skill" class="aside-item">基本技能</a></li>
+            <li><a href="#career" class="aside-item">工作经历</a></li>
+            <li><a href="#projects" class="aside-item">项目展示</a></li>
+            <li><a href="#evaluation" class="aside-item">自我评价</a></li>
+        </ul>
+        <a href="javascript:void(0);" id="foldAside" class="fold-aside-icon" title="hide">×</a>
+    </aside>
+    <div class="main">
+        <section id="introdution">
+            <h2><span>简介</span><i>Profile</i></h2>
+            <div class="content-wrap clearfix">
+                <div class="avator-wrap"><img src="images/avator.png" class="avatar" alt="me"></div>
+                <div class="basic-info fl" draggable="true">
+                    <p>姓名：<script>document.write(decodeURI(['%E6%96%87','%E6%8C%AF','%E9%A9%AC'].reverse().join('')));</script></p>
+                    <p>学校：新疆大学</p>
+                    <p>专业：信息计算科学</p>
+                    <p>邮箱：<script>document.write(['.com','foxmail','@','joe-ma'].reverse().join(''));</script></p>
+                    <p>手机：<script>document.write( 'a1#5d9X d2x9aa5e@6% e1c!1d:v8@#6'.replace(/[^\d\s]/g,''));</script></p>
+                    <p>Github：<a href="https://github.com/joepony" class="hover-animate-border" target="_blank">https://github.com/joepony</a></p>
+                </div>
+            </div>
+        </section>
+        <section id="skill">
+            <h2><span>基本技能</span><i>Skills</i></h2>
+            <div class="content-wrap">
+                <ul>
+                    <li>掌握HTML(5)、CSS(3)基础，可以完成常见的静态网页；</li>
+                    <li>了解响应式开发规范和BootStrap框架；</li>
+                    <li>熟悉ES5 JavaScript，用面向对象的方式封装和运用过一些工具组件，了解requireJS、Sea.js的运用；</li>
+                    <li>能结合jQuery实现常见的页面效果；</li>
+                    <li>理解Ajax机制，并能将异步交互运用到项目中；</li>
+                    <li>能运用gulp、fis3构建项目；</li>
+                    <li>对Git版本控制工具有一定认识；</li>
+                    <li>了解PHP、Node后端语言及数据库基本操作。</li>
+                </ul>
+            </div>
+        </section>
+        <section id="career">
+            <h2><span>工作经历</span><i>Career</i></h2>
+            <div class="content-wrap">
+                <section>
+                    <h3><script>document.write(decodeURI('%E8%A5%BF%E5%AE%89%E7%B2%BE%E5%88%9B%E7%BD%91%E7%BB%9C%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8'));</script></h3>
+                    <p>职责：负责前端及站群开发</p>
+                </section>
+                <section class="mt20">
+                    <h3><script>document.write(decodeURI('%E4%BA%A6%E7%BF%94%E7%BD%91%E7%BB%9C%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8'));</script></h3>
+                    <p>职责：负责网站页面制作，后期涉及cms前后端开发。</p>
+                    <p>收获：开发并上线多个网站，工作期间积累了不少经验和技能，对后端开发也有了一定认识。</p>
+                    <p>后期通过系统学习，扩展了较新的知识体系，提升了web2.0应用的开发技能。当然，学无止境。</p>
+                </section>
+            </div>
+        </section>
+        <section id="projects">
+            <h2><span>项目展示</span><i>Projects</i></h2>
+            <div class="content-wrap">
+                <h3>全栈项目：</h3>
+                <section class="mt10">
+                    <h4>1. 新闻管理 Web App：</h4>
+                    <section>
+                        选型：jQuery、Bootstrap、Node+Express+ejs、MySQL
+                    </section>
+                    <section>
+                        功能：响应式呈现，后端实现新闻图文数据的按栏目新增、修改、查询和删除。 
+                        <p>在用户体验方面，后台信息列表做了分页、信息搜索用户侧实现信息列表的 Ajax 加载。</p>
+                    </section>
+                    <a href="javascript:void(0);" class="hover-animate-border" id="haveALook1">查看效果图</a>
+                </section>
+                <section class="mt10">
+                    <h4>2. 图片管理 Web App：</h4>
+                    <section>
+                        选型：jQuery、Bootstrap、PHP、MySQL
+                    </section>
+                    <section>
+                        功能：除了实现"响应式新闻发布系统"功能外，前端还实现了图片的瀑布流效果和 Ajax 按需加载。
+                    </section>
+                    <!-- <a href="javascript:void(0);" class="hover-animate-border" id="haveALook2">查看效果图</a> -->
+                </section>
+                <h3 class="mt40">组件开发及静态页面(部分)：</h3>
+                <ul class="mt10">
+                    <li>slideJQ 一个多场景应用型轮播/切换组件 <a href="https://joepony.github.io/slideJQ-plugin/" class="hover-animate-border" target="_blank">查看</a></li>
+                    <li>用JS模块化重构注册登录页面 <a href="https://joepony.github.io/login-register/" class="hover-animate-border" target="_blank">查看</a></li>
+                    <li>中型网站首页 <a href="https://joepony.github.io/geekindex/" class="hover-animate-border" target="_blank">查看</a></li>
+                    <li>百度 <a href="http://joepony.github.io/page1/" class="hover-animate-border" target="_blank">查看</a></li>
+                    <li>原生JavaScript操作DOM <a href="http://joepony.github.io/dom-1/" class="hover-animate-border" target="_blank">查看</a></li>
+                    <li>计算器 <a href="http://joepony.github.io/page2/" class="hover-animate-border" target="_blank">查看</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="evaluation">
+            <h2><span>自我评价</span><i>Self-evaluation</i></h2>
+            <div class="content-wrap clearfix">
+                <p>热爱前端，喜欢钻研，乐于分享</p>
+                <p>努力让项目做到好用、靠谱</p>
+                <p>追求更好，希望不断完善自我</p>
+            </div>
+        </section>
+    </div>
+    <template id="tmplBouncingBox1">
+        <div class="slide-list-wrap overflow-h pos-r shadow-b" id="slideWrap2">
+            <ul class="slide-list">
+                <li class="test-li"><img src="images/newsApp/1.jpg" alt="前台首页"></li>
+                <li class="test-li"><img src="images/newsApp/2.jpg" alt="后台首页"></li>
+                <li class="test-li"><img src="images/newsApp/3.jpg" alt="新增页面"></li>
+                <li class="test-li"><img src="images/newsApp/4.jpg" alt="修改页面"></li>
+            </ul>
+            <ul class="index-list">
+                <li class="active"></li>
+            </ul>
+            <span class="arrow arrow-icon arrow-icon-left prev"></span>
+            <span class="arrow arrow-icon arrow-icon-right next"></span>
+        </div>
+    </template>
+    <script src="js/lib/sea.js"></script>
+    <script>
+    seajs.config({
+      // base: "./js",
+      alias: {
+        "jquery": "./lib/jquery-1.11.3.min"
+      }
+    });
+    seajs.use('./js/main');
+    </script>
+    <script>
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "my simple resume",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-uglify": "^3.0.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.11",
+    "merge-stream": "^1.0.1",
+    "minifymyjs": "^1.0.1",
+    "path": "^0.12.7",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoePony/slideJQ-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoePony/slideJQ-plugin/issues"
+  },
+  "homepage": "https://github.com/JoePony/slideJQ-plugin#readme"
+}
