@@ -28,13 +28,17 @@
             <li><a href="#projects" class="aside-item">项目展示</a></li>
             <li><a href="#evaluation" class="aside-item">自我评价</a></li>
         </ul>
-        <a href="javascript:void(0);" id="foldAside" class="fold-aside-icon" title="hide">×</a>
+        <a href="javascript:void(0);" id="foldAside" class="fold-aside-icon">
+            <i></i>
+            <i></i>
+            <i></i>
+        </a>
     </aside>
     <div class="main">
         <section id="introdution">
             <h2><span>简介</span><i>Profile</i></h2>
             <div class="content-wrap clearfix">
-                <div class="avator-wrap"><img src="images/avator.png" class="avatar" alt="me"></div>
+                <figure class="avator-wrap"><img src="images/avator.png" class="avatar" alt="me"></figure>
                 <div class="basic-info fl" draggable="true">
                     <p>姓名：<script>document.write(decodeURI(['%E6%96%87','%E6%8C%AF','%E9%A9%AC'].reverse().join('')));</script></p>
                     <p>学校：新疆大学</p>
@@ -53,10 +57,10 @@
                     <li>了解响应式开发规范和BootStrap框架；</li>
                     <li>熟悉ES5 JavaScript，用面向对象的方式封装和运用过一些工具组件，了解requireJS、Sea.js的运用；</li>
                     <li>能结合jQuery实现常见的页面效果；</li>
-                    <li>理解Ajax机制，并能将异步交互运用到项目中；</li>
+                    <li>理解Ajax，并能将异步交互运用到项目中；</li>
                     <li>能运用gulp、fis3构建项目；</li>
                     <li>对Git版本控制工具有一定认识；</li>
-                    <li>了解PHP、Node后端语言及数据库基本操作。</li>
+                    <li>了解PHP、Node后端语言。</li>
                 </ul>
             </div>
         </section>
@@ -78,7 +82,7 @@
         <section id="projects">
             <h2><span>项目展示</span><i>Projects</i></h2>
             <div class="content-wrap">
-                <h3>全栈项目：</h3>
+                <h3>Wap APP项目：</h3>
                 <section class="mt10">
                     <h4>1. 新闻管理 Web App：</h4>
                     <section>
@@ -144,9 +148,6 @@
       }
     });
     seajs.use('./js/main');
-    </script>
-    <script>
-    
     </script>
 </body>
 
